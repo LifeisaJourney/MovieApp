@@ -18,6 +18,7 @@
     <%= image_tag movie.image %>
       <h3><%= movie.title %></h3>
       <p><%= movie.release_year %></p>
+      <%= link_to "Learn more", movie_path(movie)%>
     </div>
     <% end %>
       
