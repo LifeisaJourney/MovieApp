@@ -13,8 +13,8 @@
     <!--
     To do: Loop through movies and display each one with this HTML
         -->
-    <div class="movie">
     <% @movies.each do |movie| %>
+    <div class="movie">
     <%= image_tag movie.image %>
       <h3><%= movie.title %></h3>
       <p><%= movie.release_year %></p>
